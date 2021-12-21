@@ -40,7 +40,7 @@
 > Для выхода из режима ввода требуется ввести -1
 
 ## Дополнительное описание файлов
-###[`classifier_bag_words.py`](https://gitlab.com/ISU-Applied-Computer-Science/5th-semester/artificial-intelligence/messages-spam/-/blob/main/classifier_bag_words.py)
+### [`classifier_bag_words.py`](https://gitlab.com/ISU-Applied-Computer-Science/5th-semester/artificial-intelligence/messages-spam/-/blob/main/classifier_bag_words.py)
 1. Удаляем ненужные символы, цифры и знаки препинания
 2. Делаем слова строчными
 3. Удаляем стоп-слова из списка
