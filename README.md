@@ -29,4 +29,24 @@
    3. Уставливаем классификатор [наивный байесовский классификатор](https://en.wikipedia.org/wiki/Naive_Bayes_classifier) [ComplementNB](https://scikit-learn.org/stable/modules/generated/sklearn.naive_bayes.ComplementNB.html)
 6. Обучаем модель
 7. Прогнозирование значений в тестовом наборе данных для проверки модели
-8. Сохранение моделей
+8. Сохранение моделей с именем [finalized_model](https://gitlab.com/ISU-Applied-Computer-Science/5th-semester/artificial-intelligence/messages-spam/-/tree/main/models)
+
+### [`implementing.ipynb`](https://gitlab.com/ISU-Applied-Computer-Science/5th-semester/artificial-intelligence/messages-spam/-/blob/main/implementing.ipynb)
+1. Импорт необходимых библиотек 
+2. Загрузка модели [finalized_model](https://gitlab.com/ISU-Applied-Computer-Science/5th-semester/artificial-intelligence/messages-spam/-/tree/main/models)
+3. Запуск программы, где человеку предлагается ввести сообщение
+4. Прогнозирование введеным человеком сообщение спам или не спам
+
+> Для выхода из режима ввода требуется ввести -1
+
+## Дополнительное описание файлов
+###[`classifier_bag_words.py`](https://gitlab.com/ISU-Applied-Computer-Science/5th-semester/artificial-intelligence/messages-spam/-/blob/main/classifier_bag_words.py)
+1. Удаляем ненужные символы, цифры и знаки препинания
+2. Делаем слова строчными
+3. Удаляем стоп-слова из списка
+4. Возвращает обработанное сообщение
+
+## Точность нейронной сети
+```python
+Accuracy:  97%
+```
