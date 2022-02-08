@@ -9,15 +9,15 @@
 3. Описание на страницу - как работает, какие результаты
 
 ## Структура проекта
-1. [`data` - Папка с датасетов сообщений](https://gitlab.com/ISU-Applied-Computer-Science/5th-semester/artificial-intelligence/messages-spam/-/tree/main/data)
-2. [`models` - Папка с моделями](https://gitlab.com/ISU-Applied-Computer-Science/5th-semester/artificial-intelligence/messages-spam/-/tree/main/models)
+1. [`data` - Папка с датасетов сообщений](/data)
+2. [`models` - Папка с моделями](/models)
     > Пока что в папке models лежит одна натренированная модель [наивный байесовский классификатор](https://en.wikipedia.org/wiki/Naive_Bayes_classifier) [ComplementNB](https://scikit-learn.org/stable/modules/generated/sklearn.naive_bayes.ComplementNB.html)
-3. [`implementing.ipynb` - Блокнот для классификации сообщений](https://gitlab.com/ISU-Applied-Computer-Science/5th-semester/artificial-intelligence/messages-spam/-/blob/main/implementing.ipynb)
-4. [`classifier_bag_words.py` - Функция предварительной обработки текста](https://gitlab.com/ISU-Applied-Computer-Science/5th-semester/artificial-intelligence/messages-spam/-/blob/main/classifier_bag_words.py) (Мешок слов)
+4. [`implementing.ipynb` - Блокнот для классификации сообщений](/implementing.ipynb)
+5. [`classifier_bag_words.py` - Функция предварительной обработки текста](/classifier_bag_words.py) (Мешок слов)
 
 ## Краткое описание блокнотов
 
-### [`traning.ipynb`](https://gitlab.com/ISU-Applied-Computer-Science/5th-semester/artificial-intelligence/messages-spam/-/blob/main/implementing.ipynb)
+### [`traning.ipynb`](/training.ipynb)
 
 1. Импорт необходимых библиотек и загрузка стоп-слов для библиотеки [nltk](https://www.nltk.org)
 2. Разархивация архива с датасетов сообщений
@@ -31,7 +31,7 @@
 7. Прогнозирование значений в тестовом наборе данных для проверки модели
 8. Сохранение моделей с именем [finalized_model](https://gitlab.com/ISU-Applied-Computer-Science/5th-semester/artificial-intelligence/messages-spam/-/tree/main/models)
 
-### [`implementing.ipynb`](https://gitlab.com/ISU-Applied-Computer-Science/5th-semester/artificial-intelligence/messages-spam/-/blob/main/implementing.ipynb)
+### [`implementing.ipynb`](/implementing.ipynb)
 1. Импорт необходимых библиотек 
 2. Загрузка модели [finalized_model](https://gitlab.com/ISU-Applied-Computer-Science/5th-semester/artificial-intelligence/messages-spam/-/tree/main/models)
 3. Запуск программы, где человеку предлагается ввести сообщение
@@ -40,7 +40,7 @@
 > Для выхода из режима ввода требуется ввести -1
 
 ## Дополнительное описание файлов
-### [`classifier_bag_words.py`](https://gitlab.com/ISU-Applied-Computer-Science/5th-semester/artificial-intelligence/messages-spam/-/blob/main/classifier_bag_words.py)
+### [`classifier_bag_words.py`](/classifier_bag_words.py)
 1. Удаляем ненужные символы, цифры и знаки препинания
 2. Делаем слова строчными
 3. Удаляем стоп-слова из списка
